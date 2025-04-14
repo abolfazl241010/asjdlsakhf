@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه برتر</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .container {
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 1rem;
+            max-width: 300px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product-details {
+            padding: 1rem;
+            text-align: center;
+        }
+        .product h3 {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .product p {
+            color: #777;
+            margin: 0.5rem 0;
+        }
+        .product button {
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .product button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        فروشگاه برتر
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="شلوار مردانه">
+            <div class="product-details">
+                <h3>شلوار مردانه</h3>
+                <p>قیمت: ۲۵۰,۰۰۰ تومان</p>
+                <button onclick="window.open('https://wa.me/989963495272', '_blank')">خرید</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="کفش اسپرت">
+            <div class="product-details">
+                <h3>کفش اسپرت</h3>
+                <p>قیمت: ۳۵۰,۰۰۰ تومان</p>
+                <button onclick="window.open('https://wa.me/989963495272', '_blank')">خرید</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="پیراهن مردانه">
+            <div class="product-details">
+                <h3>پیراهن مردانه</h3>
+                <p>قیمت: ۱۸۰,۰۰۰ تومان</p>
+                <button onclick="window.open('https://wa.me/989963495272', '_blank')">خرید</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        تمامی حقوق محفوظ است | فروشگاه برتر
+    </footer>
+</body>
+</html>
